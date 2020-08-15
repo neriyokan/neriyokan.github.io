@@ -1,0 +1,70 @@
+
+@font-face {
+font-family: Noto Sans JP;
+src: url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);
+}
+
+body{
+    height:100%
+    font-family:'Noto Sans JP', 'MS ゴシック',sans-serif;
+}
+
+#header img{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+}
+#icon img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  
+}
+#header p{
+    size:18px;
+    text-align:center;
+}
+.under{
+    background: linear-gradient(transparent 50%, #afeeee 50%);
+			
+}
+.under2{
+    background:linear-gradient(transparent 50%,#ffbdde 50%);
+}
+
+h3{
+    text-align:center;	      
+}  
+
+#nav ul{
+    list-style-type: none;
+    text-align:center 
+}
+
+#nav ul li { 
+  display: inline-block;
+  width: 250px;
+  padding: 10px 0;
+  margin: 10px 0;
+  vertical-align: middle;
+}
+#nav img{
+    width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+#sirotan img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    vertical-align:middle;
+}
+#parfait img{
+    display:inline-block;
+    text-align:middle;
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    vertical-align:middle;
+}
